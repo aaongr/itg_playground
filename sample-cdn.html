@@ -11,18 +11,18 @@
   <!-- ✅ DaisyUI plugin -->
   <script src="https://cdn.jsdelivr.net/npm/daisyui@3.9.4"></script>
 
-  <!-- ✅ Συνδεδεμένο DaisyUI plugin στον Tailwind config -->
+  <!-- ✅ DaisyUI activation in Tailwind -->
   <script>
     tailwind.config = {
-      plugins: [window.daisyui],
-    }
+      plugins: [window.daisyui]
+    };
   </script>
 </head>
 <body class="p-6 bg-base-200 text-base-content">
 
   <h1 class="text-3xl font-bold mb-4">Tailwind & DaisyUI Test</h1>
 
-  <!-- ✅ DaisyUI Table -->
+  <!-- Table -->
   <div class="overflow-x-auto mb-6">
     <table class="table table-zebra w-full">
       <thead>
@@ -47,14 +47,14 @@
     </table>
   </div>
 
-  <!-- ✅ DaisyUI Tabs -->
+  <!-- Tabs -->
   <div role="tablist" class="tabs tabs-bordered mb-6">
     <a role="tab" class="tab tab-active">Tab 1</a>
     <a role="tab" class="tab">Tab 2</a>
     <a role="tab" class="tab">Tab 3</a>
   </div>
 
-  <!-- ✅ Collapsible Section (pure HTML) -->
+  <!-- Collapse -->
   <div class="mb-6">
     <details class="collapse bg-base-100 rounded-box">
       <summary class="collapse-title font-medium">Click to expand</summary>
@@ -64,7 +64,7 @@
     </details>
   </div>
 
-  <!-- ✅ Tailwind Buttons -->
+  <!-- Buttons -->
   <div class="space-x-2">
     <button class="btn btn-primary">Primary</button>
     <button class="btn btn-secondary">Secondary</button>
